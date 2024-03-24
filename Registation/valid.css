@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.content {
+    padding: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="submit"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
